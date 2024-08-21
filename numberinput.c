@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+# include <stdio.h>
 
-/* I am a comment */
-int main() {
+int numberinput() {
     int usf, euf;
     printf("Enter US Floor\n");
     scanf("%d", &usf);
