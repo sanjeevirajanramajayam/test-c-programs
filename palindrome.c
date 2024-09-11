@@ -8,6 +8,8 @@ int main()
     char s[20];
     scanf("%d", &num);
 
+    sprintf(s, "%d", num);
+
     for (i=1; i <= strlen(s); i++){
         digit = num % 10;
         sum = (sum * 10) + digit;
