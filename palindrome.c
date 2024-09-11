@@ -8,7 +8,7 @@ int main()
     char s[20];
     scanf("%d", &num);
 
-    sprintf(s, "%d", num);
+    sprintf(s, "%d", num); // Changes num to string s
 
     for (i=1; i <= strlen(s); i++){
         digit = num % 10;
